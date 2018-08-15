@@ -1,0 +1,53 @@
+node_modules
+ publicIp.v4().then(ip => {
+        console.log(ip);
+  });
+
+  publicIp.v6().then(ip => {
+	console.log(ip);
+      publicIp.v4().then(ip => {
+        console.log(ip);
+  });
+
+  publicIp.v6().then(ip => {
+	console.log(ip);
+
+
+ipify().then(ip => {
+        console.log(ip);
+
+
+
+        let a = args.simpan
+    let c = "";
+    for(a=)
+
+
+
+
+    var anysize = 3;//the size of string 
+var charset = "abcdefghijklmnopqrstuvwxyz"; //from where to create
+result="";
+for( var i=0; i < anysize; i++ )
+        result += charset[Math.floor(Math.random() * charset.length)];
+console.log(result);
+  })
+
+   console.log(s.split())
+
+    for(let item of s){
+        console.log(item);
+        console.log(item.charCodeAt)
+        console.log("&#" + item.charCodeAt);
+
+
+Get a screenshot from a URLGet a screenshot from a URL
+ const screenshot = require('url-to-screenshot')
+      const fs = require('fs')
+      new screenshot('https://google.com')
+      .width(800)
+      .height(600)
+      .capture()
+      .then(img =>
+    fs.writeFileSync(`${__dirname}/example.png`,img))
+  });
